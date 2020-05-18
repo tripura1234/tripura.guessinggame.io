@@ -1,5 +1,5 @@
 #!/bin/bash
-touch README.md >README.md
+touch README.md 
 
 #The title of the project.
 echo 'Guessing game by coursera' >README.md
