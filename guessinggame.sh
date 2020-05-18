@@ -1,4 +1,4 @@
-#!/usr/bin/evn bash
+#!/bin/bash
 
 
 #function 
