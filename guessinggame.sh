@@ -8,7 +8,7 @@ function Guess
 
 read num
 
-filepresent=$(ls -l | wc -l)
+filepresent=$(ls -al | wc -l)
   
 }
 
