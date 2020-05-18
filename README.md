@@ -1,7 +1,3 @@
-# tripura.guessinggame
-
-Title: Guessing Game
-
-Date make ran at: Sun May 18 10:42:32 MDT 2020
-
-Number of lines of code: 36
+Guessing game by coursera
+Mon May 18 09:47:49 UTC 2020
+wc: guessinggame.sh: No such file or directory
