@@ -9,7 +9,7 @@ function Guess
 read num
 
 if ! [[ "$num" =~ ^[0-9]+$ ]] ; 
- then exec >&2; echo "inavlid input-try again";exit 1
+ then exec >&2; echo 'inavlid input-try again';exit 1
 fi
 
 filepresent=$(ls -a | wc -l)
