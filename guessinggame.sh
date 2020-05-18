@@ -4,13 +4,19 @@
 #function 
 function Guess
 {
-  echo guess how  many files in this directory
+  echo -n "guess how  many files in this directory"
 
 read num
 
-filepresent=$(ls -al | wc -l)
+if ! [[ "$num" =~ ^[0-9]+$ ]] ; 
+ then exec >&2; echo "inavlid input-try again";exit 1
+fi
+
+filepresent=$(ls -a | wc -l)
   
 }
+
+
 
 Guess
 
