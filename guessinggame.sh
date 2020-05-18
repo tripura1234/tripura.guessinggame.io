@@ -7,10 +7,15 @@ function Guess
   echo -n "guess how  many files in this directory"
 
 read num
+if  [[ "$num" =~ ^[0-9]+$ ]] ; 
+ then echo 'valid input'
 
-if ! [[ "$num" =~ ^[0-9]+$ ]] ; 
- then exec >&2; echo 'inavlid input-try again';exit 1
+ else 
+echo 'oops! invalid input try again'
+read num
 fi
+
+
 
 filepresent=$(ls -a | wc -l)
   
@@ -45,4 +50,5 @@ read num
 done
 
 echo 'congrats Guess  is actually correct'
+
 
