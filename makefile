@@ -13,3 +13,7 @@ date >>README.md
 #The number of lines of code contained in guessinggame.sh.
 
 wc -l guessinggame.sh | awk '{print $1}' >>README.md
+
+clean:
+  rm README.md
+  
