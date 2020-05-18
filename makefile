@@ -1,4 +1,6 @@
-#!/bin/bash
+all: README.md
+
+README.md:
 
 
 #The title of the project.
