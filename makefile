@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/evn bash
 touch README.md 
 
 #The title of the project.
