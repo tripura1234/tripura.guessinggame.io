@@ -12,7 +12,7 @@ if ! [[ "$num" =~ ^[0-9]+$ ]] ;
  then exec >&2; echo 'inavlid input-try again';exit 1
 fi
 
-filepresent=$(ls -d * | wc -l)
+filepresent=$(ls -a | wc -l)
   
 }
 
