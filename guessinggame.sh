@@ -17,7 +17,9 @@ fi
 
 
 
-filepresent=$(ls -a | wc -l)
+shopt -s nullglob
+filepresent=(*)
+filepresent=${#filepresent[@]}
   
 }
 
