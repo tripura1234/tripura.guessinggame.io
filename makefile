@@ -1,6 +1,4 @@
-all: README.md
-
-README.md:
+README.md: guessinggame.sh
 
 
 #The title of the project.
