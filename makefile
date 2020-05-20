@@ -1,4 +1,4 @@
-README.md: guessinggame.sh
+#README.md: guessinggame.sh
 
 
 #The title of the project.
@@ -12,6 +12,6 @@ date >>README.md
 
 wc -l guessinggame.sh | awk '{print $1}' >>README.md
 
-clean:
-  rm README.md
+#clean:
+ # rm README.md
   
